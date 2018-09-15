@@ -17,6 +17,9 @@ module.exports = function (app) {
 
         console.log(newFriend);
 
+    
+    // ???? Having trouble with creating the logic. 
+
     //     for (var i = 0; i < newFriend.scores.length; i++) {
     //         newFriend.scores[i] = parseInt(newFriend.scores[i]);
     //     }
