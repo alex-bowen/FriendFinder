@@ -45,6 +45,6 @@ module.exports = function (app) {
     //     friends.push(newFriend);
 
     //     res.json(friends[closestDifference]);
-    // })
+    })
 
 }
