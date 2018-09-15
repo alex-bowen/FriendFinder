@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 // REQUIRE ROUTES
 require("./app/data/friends");
-require("./app/routing/apiRoutes.js");
+require("./app/routing/apiRoutes.js")(app);
 require("./app/routing/htmlRoutes.js")(app);
 
 // STARTS SERVER TO LISTENING 
